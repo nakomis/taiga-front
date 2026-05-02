@@ -1,1 +1,3 @@
-// nakomis theme variables — overrides applied via custom.scss
+// Import all taiga variables so module SCSS compiles cleanly.
+// The compiled output is overwritten by copy-nakomis-css (pre-compiled theme-nakomis.css).
+@import "../taiga/variables";
